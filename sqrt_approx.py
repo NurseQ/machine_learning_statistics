@@ -7,8 +7,8 @@ def sqrt(x):
     # tell python to calculate a better estimate for the
     # square root of x until within set number of decimal places
 
-    while abs(z*z - x) >=0.0001
-    
+    while abs(z*z - x) >=0.0001:
+
         z -=(z*z - x) / (2*z)
 
     return z
